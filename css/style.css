@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap');
 
 :root {
-  --mango-gradient: linear-gradient(to right, #ffa751, #ffe259);
-  --primary-gradient: linear-gradient(to right, #4e4376, #2b5876);
+  --mango-gradient: linear-gradient(to right, #e3bfe4, #efb3f1);
+  --primary-gradient: linear-gradient(to right, #350d3d, #4a1355);
   --text-color: #f7f9f9;
   --Montserrat: 'monserrat', cursive;
   --lobster: 'lobster', cursive;
@@ -15,7 +15,6 @@ html,
 body {
   height: 100%;
   overflow: hidden;
-  background: #ffe259;
   background: var(--mango-gradient);
 }
 
@@ -86,11 +85,11 @@ body {
 }
 
 .owl-dots .active {
-  border: 1px solid #ffd765 !important;
+  border: 1px solid #4a1355 !important;
 }
 
 .owl-dots .active span {
-  background: #ffd765 !important;
+  background: #4a1355 !important;
   margin: 0.3rem 0.5rem !important;
 }
 
